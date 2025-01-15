@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* main{
+    padding: 1rem;
+} */
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+ 
+.card{
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 3rem 1rem 1rem; 
+    background: hsl(213, 19%, 18%);
+    color:  hsl(217, 12%, 63%);
+}
+
+#star-icon{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 50%;
+    background: #323c49;
+}
+h1{
+    margin: 1rem auto;
+}
+#r-btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+.numbtn{
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    padding: 1rem;
+    color:  hsl(217, 12%, 63%);
+    background:#323c49 ;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+.numbtn:hover{
+    background:hsl(25, 97%, 53%) ;
+    color: #000;
+}
+.numbtn:active{
+    background-color: #fff;
+    color: #000;
+}
+
+#submitbtn{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    color: #000;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: hsl(25, 97%, 53%);
+    font-weight: 600;
+    cursor: pointer;
+}
+#submitbtn:hover{
+    background-color: #fff;
+    color: #000;
+}
+#thank-you{
+text-align: center;
+display: none;
+}
+#selectedMsg{
+    display: inline-block;
+    background:#323c49 ;
+    padding: 0.5rem ;
+    color:hsl(25, 97%, 53%) ;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+#thank-you h1{
+    color: #fff;
+}
+#thank-you p{
+    margin: 1rem;
+}
+@media screen and (min-width: 1024px) {
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #container{
+        width: 50%;
+    }
+}
