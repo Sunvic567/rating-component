@@ -3,9 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* main{
-    padding: 1rem;
-} */
+ 
 
 body{
     background-color: hsl(216, 12%, 8%);
@@ -34,7 +32,7 @@ h1{
 }
 #r-btns{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .numbtn{
     border: 0;
@@ -43,8 +41,10 @@ h1{
     padding: 1rem;
     color:  hsl(217, 12%, 63%);
     background:#323c49 ;
-    margin: 1rem auto;
+    margin: 0.5rem;
     cursor: pointer;
+    width: 100%;
+
 }
 .numbtn:hover{
     background:hsl(25, 97%, 53%) ;
